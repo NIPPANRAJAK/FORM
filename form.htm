@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<style>
+	body {
+  background-color: lightblue;
+	}
+	label {
+	    color:blue;
+	    font-size:20px;
+	  }
+
+	.upload, .marksheet {
+ 	 color: red;
+	}
+	#button, #submit {
+	 text-align:center; 
+	font-size:20px;
+	}
+  </style>
+
+
+</head>
+<body>
+<h1 style="text-align:center; background-color:DodgerBlue;"><ins>BIO-DATA MAKER FORM</ins></h1>
+
+<form action="C:\Users\COMPUTER\Desktop\submit.htm">
+	<h2  style="font-size:30px; color:black"><ins>Personal Details-</ins></h2><br>
+
+ 	<h3 style="font-size:25px; color:black"><ins>Candidate Name-</ins></h3>
+	
+	<label for="fname"><p style="text-align:left;"><b>First Name:</b></label>
+	<input type="text" id="fname" name="fname" placeholder="Write your name">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 	<label for="mname"><b>Middle Name:</b></label>
+	<input type="text" id="mname" name="mname" placeholder="Write your middle name">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<label for="lname"><b>Last Name:</b> </label>
+	<input type="text" id="lname" name="lname" placeholder="Write your last name"></p>
+	
+	<h3 style="font-size:25px; color:black"><ins>Father's Name-</ins></h3>
+
+	<label for="fname"><p style="text-align:left;"><b>First Name:</b></label>
+	<input type="text" id="fname" name="fname" placeholder="Write your name">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 	<label for="mname"><b>Middle Name:</b></label>
+	<input type="text" id="mname" name="mname" placeholder="Write your middle name">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<label for="lname"><b>Last Name:</b> </label>
+	<input type="text" id="lname" name="lname" placeholder="Write your last name"></p>
+
+	<h3 style="color:black"><ins>Mothers's Name-</ins></h3>
+	<label for="fname"><p style="text-align:left;"><b>First Name:</b></label>
+	<input type="text" id="fname" name="fname" placeholder="Write your name">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 	<label for="mname"><b>Middle Name:</b></label>
+	<input type="text" id="mname" name="mname" placeholder="Write your middle name">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<label for="lname"><b>Last Name:</b> </label>
+	<input type="text" id="lname" name="lname" placeholder="Write your last name"></p><br>
+
+
+
+	<label for="birthday"><b>Birthday:</b> </label>
+	<input type="date" id="birthday" name="birthday">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<label for="birthtime"><b>Birthtime:</b> </label>
+	<input type="time" id="birthtime" name="birthtime">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<label for="color"><b>Fevourite color:</b> </label>
+	<input type="color" id="fevouritecolor" name="fevouritecolor"><br><br>
+		
+	
+	<h3 style="font-size:25px; color:black"> <ins>CASTE:</ins> </h3>
+	<input type="radio" id="GENERAL" name="CASTE" value=GENERAL>
+	<label for="GENERAL"> GENERAL</label><br>
+	<input type="radio" id="SC" name="CASTE" value=SC>
+	<label for="SC">SC </label><br>
+	<input type="radio" id="ST" name="CASTE" value=ST>
+	<label for="ST"> ST</label><br>
+	<input type="radio" id="OBC-A" name="CASTE" value=OBC-A>
+	<label for="OBC-A"> OBC-A </label><br>
+	<input type="radio" id="OBC-B" name="CASTE" value=OBC-B>
+	<label for="OBC-B"> OBC-B </label><br><br>
+
+	<label for="number"><b>Phone Number:</b> </label><br>
+	<input type="text" id="phonenumber" name="phonenumber" maxlength="10" size="10" placeholder="0123456789"><br><br>
+	
+
+	<label for="email"> <b>Email-id:</b> </label><br>
+	<input type="email" id="email-id" name="email-id" placeholder="abcddefgh000@gmail.com"><br><br>
+
+	<label for="adress"><b>Permanent Address:</b></label><br>
+	<input type="text" id="address" name="address" placeholder="Write your permanent address"><br><br>
+
+	
+	<label for="pin">PIN:</label><br>
+  	<input type="text" id="pin" name="pin" maxlength="6" size="6" placeholder="123456"><br><br>
+
+
+	<label for="file"><b>Upload photo</b> </label><br>
+	<input type="file" id="photo" class="upload"><br><br>
+	<label for="file"><b>Upload signature</b> </label><br>
+	<input type="file" id="signature" class="upload"><br><br>
+
+
+
+	<h2 style="font-size:30px; color:black"> <ins>Educational Qualification-</ins> </h2>
+	<table>
+	<tr>
+		<th>SL. No.</th>
+		<th>Dergee</th>
+		<th>Board</th>
+		<th>Year of passing</th>
+		<th>Percentage(%)</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>10<sup>th</sup></td>
+		<td><input type="text" id="board1" name="board" placeholder="Write the board you passed from"></td>
+		<td><input type="number" id="year1" name="year" placeholder="Write the year when you passed"></td>
+		<td><input type="text" id="percentage1" name="percentage" placeholder="100" maxlenght="3" size="3"></td>
+	</tr>
+		
+	<tr>
+		<td>2</td>
+		<td>12<sup>th</sup></td>
+		<td><input type="text" id="board2" name="board" placeholder="Write the board you passed from"></td>
+		<td><input type="number" id="year2" name="year" placeholder="Write the year when you passed"></td>
+		<td><input type="text" id="percentage2" name="percentage" placeholder="100" maxlenght="3" size="3"></td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Graduation</td>
+		<td><input type="text" id="board1" name="board" placeholder="Write the university you passed from"></td>
+		<td><input type="number" id="year3" name="year" placeholder="Write the year when you passed"></td>
+		<td><input type="text" id="percentage3" name="percentage" placeholder="100" maxlenght="3" size="3"></td>
+	</tr>
+	</table><br><br>
+	<label for="file"> <b>Upload your 10<sup>th</sup> Marksheet</b> </label><br>
+	<input type="file" id="markshit01" class="marksheet"><br>
+	<label for="file"> <b>Upload your 12<sup>th</sup> Marksheet</b> </label><br>
+	<input type="file" id="markshit02" class="marksheet"><br>
+	<label for="file"> <b>Upload your Graduation Marksheet</b> </label><br>
+	<input type="file" id="markshit03" class="marksheet"><br><br>
+
+	<h2 style="font-size:30px; color:black"> <ins>Other Qualification-</ins> </h2>
+
+	<input type="checkbox" id="Computer Knowlage" name="education" value=Computer Knowlaged>
+	<label for="Computer Knowlage"> Computer Knowlage</label><br>
+	<input type="checkbox" id="Drawing" name="education" value=Drawing>
+	<label for="Drawing"> Drawing </label><br>
+	<input type="checkbox" id="Singing" name="education" value=Singing>
+	<label for="Singing"> Singing </label><br>
+	<input type="checkbox" id="Dancing" name="education" value=Danceing>
+	<label for="Dancing"> Dancing </label><br><br>
+
+
+
+	<input type="checkbox" id="check" name="check">
+	<label for="checkbox"<span style="border: 2px solid red"> <i>In the form I put all detail correctly,if any thing found wrong ,I am responsible for that.</span></i></label><br><br>
+	<input style="text-align:center" type="button" id="button" onclick="alert('Check your filled up form!')" value="Check form">
+	<input type="submit" id="submit" value="Submit">
+</form>
+</html>
